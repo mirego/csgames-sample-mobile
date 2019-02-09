@@ -23,10 +23,10 @@ git clone git@github.com:mirego/csgames-sample-mobile.git
 
 Then, in Android Studio: 
 
-- Select **Import project (Eclipse, ADT, Gradle, etc.)** in the Welcome Screen, go find the repository you just cloned, and click **OK**.
-- Once the project is open, click on **Sync Project with Gradle Files** in the main toolbar (or navigate to `Tools -> Android` in the application menu and select the same option).
+- Select **Import project (Eclipse, ADT, Gradle, etc.)** in the Welcome Screen, go find the `android/` folder in the repository you just cloned, and click **OK**.
+- Once the project is open, click on **Sync Project with Gradle Files** in the main toolbar (or use the option from the `File` menu).
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/4378424/24182187/64981e3e-0e96-11e7-8fcb-f03f14d78c59.png" width="208"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/4378424/52514658-cee10480-2be1-11e9-9383-0c43a2c47256.png" width="228"></p>
 
 Once you see a `BUILD SUCCESSFUL` notice in the Gradle Console, your environment should be ready to build and run the project.
 
