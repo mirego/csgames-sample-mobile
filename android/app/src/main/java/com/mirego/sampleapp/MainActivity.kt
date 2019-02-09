@@ -1,4 +1,4 @@
-package com.mirego.csgamessample
+package com.mirego.sampleapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

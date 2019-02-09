@@ -1,4 +1,4 @@
-package com.mirego.csgamessample
+package com.mirego.sampleapp
 
 import okhttp3.*
 import org.json.JSONObject
