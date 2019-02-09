@@ -12,22 +12,22 @@ class View: UIView {
     init() {
         super.init(frame: CGRect.zero)
 
-        backgroundColor = UIColor(red: 33.0 / 255.0, green: 30.0 / 255.0, blue: 37.0 / 255.0, alpha: 1.0)
+        backgroundColor = UIColor.haiti
         addSubview(containerView)
 
-        weekDayLabel.font = UIFont.systemFont(ofSize: 36, weight: .ultraLight)
-        weekDayLabel.textColor = UIColor(red: 255.0 / 255.0, green: 56.0 / 255.0, blue: 41.0 / 255.0, alpha: 1.0)
+        weekDayLabel.font = UIFont.noeDisplayBold(ofSize: 36)
+        weekDayLabel.textColor = UIColor.white
         containerView.addSubview(weekDayLabel)
         
-        dayLabel.font = UIFont.systemFont(ofSize: 80, weight: .light)
-        dayLabel.textColor = UIColor.white
+        dayLabel.font = UIFont.noeDisplayBold(ofSize: 80)
+        dayLabel.textColor = UIColor.orangeBlood
         containerView.addSubview(dayLabel)
         
-        monthLabel.font = UIFont.systemFont(ofSize: 36, weight: .medium)
+        monthLabel.font = UIFont.noeDisplayBold(ofSize: 36)
         monthLabel.textColor = UIColor.white
         containerView.addSubview(monthLabel)
         
-        timeLabel.font = UIFont.systemFont(ofSize: 30, weight: .light)
+        timeLabel.font = UIFont.noeDisplayRegular(ofSize: 36)
         timeLabel.textColor = UIColor.white
         containerView.addSubview(timeLabel)
     }
